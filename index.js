@@ -1,8 +1,8 @@
-// TODO: Include packages needed for this application
+// Include packages needed for this application
 const inquirer = require("inquirer");
 const fs = require("fs");
 
-// TODO: Create an array of questions for user input
+// Array of questions for user input
 const promptUser = () => {
   return inquirer.prompt([
     {
@@ -18,18 +18,18 @@ const promptUser = () => {
     {
       type: "input",
       name: "installation",
-      message: "Please enter your installation instructions (If any):",
+      message: "Please enter your installation instructions:",
     },
     {
       type: "input",
       name: "usage",
-      message: "Please enter your usage information (If any):",
+      message: "Please enter your usage information:",
     },
     {
       type: "list",
       name: "license",
       message: "Please select a license from the list below:",
-      choices: ["MIT", "Apache"],
+      choices: ["MIT", "Apache", "GNU"],
     },
     {
       type: "input",
@@ -54,7 +54,7 @@ const promptUser = () => {
   ]);
 };
 
-// TODO: Create a function to write README file
+// Create a function to write genREADME.md
 const generateREADME = ({
   title,
   description,
@@ -66,7 +66,7 @@ const generateREADME = ({
   github,
   email,
 }) =>
-  `# Project title ![license]](https://img.shields.io/badge/${license}-license-green)
+  `# Project title ![license]](https://img.shields.io/badge/license-${license}-green)
 
   ## Table of Contents
   
@@ -112,11 +112,11 @@ const generateREADME = ({
   ## Questions
 
   Visit my Github [here](https://github.com/${github})
-  Please contact me on my emial: ${email}
+  Please contact me on my email: ${email}
  
   `;
 
-// TODO: Create a function to initialize app
+// Function to initialize app
 const init = () => {
   promptUser()
     // Use writeFileSync method to use promises instead of a callback function
@@ -127,5 +127,5 @@ const init = () => {
     .catch((err) => console.error(err));
 };
 
-// Function call to initialize app
+// call init function
 init();
