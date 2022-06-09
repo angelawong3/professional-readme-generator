@@ -1,8 +1,8 @@
-# Professional Readme Generator
+# Professional README Generator
 
 ## Description
 
-a professional readme generator
+A professional readme generator which enable users to quickly create a professional README for a new project.
 
 ### Installation
 
@@ -20,14 +20,15 @@ or
 npm run start
 ```
 
-### Screenshots
+### Screenshot and the Walkthrough Video
 
-screen-cap
-and video
+![screenshot](./assets/img/gen-readme.png)
+<br />
+Download the walkthrough video [here](https://drive.google.com/file/d/1skEOHK1EUCUA8lZdR4tRrjlJOCQ1-PNL/view?usp=sharing)
 
 ### License
 
-[![License: MIT](https://img.shields.io/badge/MIT-license-green)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](https://opensource.org/licenses/MIT)
 
 ### Contact Me
 
