@@ -108,6 +108,12 @@ const generateREADME = ({
   \`\`\`
   ${test}
   \`\`\`
+
+  ## License
+  
+  ![license](https://img.shields.io/badge/license-${license}-green)
+  <br />
+  This application is covered by the ${license} license. 
   
   ## Questions
 
