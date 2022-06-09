@@ -15,6 +15,8 @@ npm install
 ### Usage
 
 ```
+node index.js
+or
 npm run start
 ```
 
