@@ -1,2 +1,2 @@
-# -professional-readme-generator
+# professional-readme-generator
 a  professional readme generator 
