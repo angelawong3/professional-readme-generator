@@ -109,10 +109,10 @@ const generateREADME = ({
   ${test}
   \`\`\`
   
-  ## Questions
+  ## Contact Me
 
-  Visit my Github [here](https://github.com/${github})
-  Please contact me on my email: ${email}
+  #### Visit my Github [here](https://github.com/${github})
+  #### Please contact me on my email: ${email}
  
   `;
 
