@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/angelawong3/professional-readme-generator/issues"
   },
-  "homepage": "https://github.com/angelawong3/professional-readme-generator#readme"
+  "homepage": "https://github.com/angelawong3/professional-readme-generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
 }
