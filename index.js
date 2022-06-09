@@ -66,7 +66,7 @@ const generateREADME = ({
   github,
   email,
 }) =>
-  `# Project title ![license]](https://img.shields.io/badge/license-${license}-green)
+  `# Project title ![license](https://img.shields.io/badge/license-${license}-green)
 
   ## Table of Contents
   
